@@ -17,26 +17,32 @@ Menedżer obcych walut, użytkownik w prosty sposób będzie mógł gromadzić i
 
 **1. Autentykacja użytkownika za pomocą konta Google.**
 Po wejściu do serwisu użytkownik zostaje poproszony o zalogowanie się:
+
 ![Strona Główna](screens/SCREEN1.png)
 
 **2. Wyszukiwanie walut.**
 Po zalogowaniu użytkownik otrzymuje możliwość wyboru dowolnej waluty z określonej przez siebie ilości dni
-![Strona Główna](screens/SCREEN2.png)
+
+![Dodaj walutę](screens/SCREEN2.png)
 
 **3. Kontrola obecnego kursu waluty**
 Po wybraniu pojawi się informacja o aktualnym kursie waluty:
-![Strona Główna](screens/SCREEN3.png)
+
+![Aktualny kurs](screens/SCREEN3.png)
 
 **4. Kontrola kursu waluty na przestrzeni czasu (zobrazowana poprzez wykres)**
 Po wybraniu pokazuje się wykres z określonego przedziału, po najechaniu widzimy stan z dowolnego dnia z wybranego wcześniej przedziału:
-![Strona Główna](screens/SCREEN4.png)
+
+![Kontrola kursu waluty](screens/SCREEN4.png)
 
 **5. Możliwość tworzenia oraz edycji list ulubionych walut**
 Waluty zapisywane są do bazy firebase przez co użytkownik nie musi za każdym razem wyszukiwać swoich ulubionych walut.
-![Strona Główna](screens/SCREEN5.png)
+
+![Wykres](screens/SCREEN5.png)
 
 ## Wersja mobilna:
-![Strona Główna](screens/SCREEN6.png)
+
+![Wersja mobilna](screens/SCREEN6.png)
 
 ### [Linnk do aplikacji](http://bai.v50.pl/)
 ### [Linnk do proojektu github](https://github.com/szymonzalega/currency-app)
@@ -44,6 +50,7 @@ Waluty zapisywane są do bazy firebase przez co użytkownik nie musi za każdym 
 
 ## Wykorzystane API
 [Firebase](https://firebase.google.com/docs/reference?hl=pl)
+
 [NBP](https://api.nbp.pl/)
 
 ## Wykorzystane technologie
@@ -52,4 +59,54 @@ Waluty zapisywane są do bazy firebase przez co użytkownik nie musi za każdym 
 * css
 
 ## Dodatkowe komponenty
-* vuechartjs
+* vue-chart-js
+
+## Vue
+* raouter-vue-router
+* vuex
+* bootstrap vue
+* Vuelidate
+
+### Package.json
+```
+{
+  "name": "currency-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -b master -d build",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bootstrap": "^4.4.1",
+    "bootstrap-vue": "^2.11.0",
+    "chart.js": "^2.9.3",
+    "core-js": "^3.6.4",
+    "firebase": "^7.14.0",
+    "firebaseui": "^4.5.0",
+    "gh-pages": "^2.2.0",
+    "uuid": "^8.0.0",
+    "vue": "^2.6.11",
+    "vue-chartjs": "^3.5.0",
+    "vue-router": "^3.1.6",
+    "vuelidate": "^0.7.5",
+    "vuex": "^3.1.3"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.3.0",
+    "@vue/cli-plugin-eslint": "~4.3.0",
+    "@vue/cli-plugin-router": "~4.3.0",
+    "@vue/cli-service": "~4.3.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
+```
