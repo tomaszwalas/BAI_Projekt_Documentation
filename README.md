@@ -1,6 +1,6 @@
 # Dokumentacja Currency App - Projekt BAI
 
-## Wstęp
+## Wstęp - opis aplikacji
 Aplikacja pozwala przy pomocy naszego konta Google na obserwacje dowolnej ilości walut z wybranej przez użytkownika ilości dni.
 
 ***
