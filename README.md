@@ -30,6 +30,10 @@ Po wybraniu pojawi się informacja o aktualnym kursie waluty:
 
 ![Aktualny kurs](screens/SCREEN3.png)
 
+Możliwość wyboru z jakiej ilości dni chcemy pozyskać dane lub wybrać własny zakres dat:
+![zakres dat](screens/SCREEN7.png)
+![ilosc dni](screens/SCREEN8.png)
+
 **4. Kontrola kursu waluty na przestrzeni czasu (zobrazowana poprzez wykres)**
 Po wybraniu pokazuje się wykres z określonego przedziału, po najechaniu widzimy stan z dowolnego dnia z wybranego wcześniej przedziału:
 
@@ -45,7 +49,7 @@ Waluty zapisywane są do bazy firebase przez co użytkownik nie musi za każdym 
 ![Wersja mobilna](screens/SCREEN6.png)
 
 ### [Link do aplikacji](http://bai.v50.pl/)
-### [Link do proojektu github](https://github.com/szymonzalega/currency-app)
+### [Link do projektu github](https://github.com/szymonzalega/currency-app)
 ### [Link do historii prowadzenia projektu](https://github.com/szymonzalega/currency-app/projects/2)
 
 ## Wykorzystane API
@@ -57,12 +61,13 @@ Waluty zapisywane są do bazy firebase przez co użytkownik nie musi za każdym 
 * vue.js
 * html
 * css
+* javascript
 
 ## Dodatkowe komponenty
 * vue-chart-js
 
 ## Vue
-* raouter-vue-router
+* router-vue-router
 * vuex
 * bootstrap vue
 * Vuelidate
