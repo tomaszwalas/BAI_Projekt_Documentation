@@ -44,9 +44,9 @@ Waluty zapisywane są do bazy firebase przez co użytkownik nie musi za każdym 
 
 ![Wersja mobilna](screens/SCREEN6.png)
 
-### [Linnk do aplikacji](http://bai.v50.pl/)
-### [Linnk do proojektu github](https://github.com/szymonzalega/currency-app)
-### [Linnk do hsitorii prowadzenia projektu](https://github.com/szymonzalega/currency-app/projects/2)
+### [Link do aplikacji](http://bai.v50.pl/)
+### [Link do proojektu github](https://github.com/szymonzalega/currency-app)
+### [Link do historii prowadzenia projektu](https://github.com/szymonzalega/currency-app/projects/2)
 
 ## Wykorzystane API
 [Firebase](https://firebase.google.com/docs/reference?hl=pl)
