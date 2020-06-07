@@ -44,24 +44,45 @@ Waluty zapisywane są do bazy firebase przez co użytkownik nie musi za każdym 
 
 ![Wykres](screens/SCREEN5.png)
 
+**Dodanie widoku menadżera portfelem **
+
+![FunkcjeWPortfelu](screens/SCREEN11.png)
+
 **6. Możliwość zasilenia wirtualnego portfela**
+
+![WirtualnyPortfel](screens/SCREEN9.png)
 
 **7. Możliwość wykonania przelewu gotówki do innego użytkownika**
 
+![Wykonanie przelewu](screens/SCREEN10.png)
+
 **8. Możliwość zakupu dowolnej waluty z dostępnego salda**
+
+![ZakupWaluty](screens/SCREEN12.png)
 
 **9. Wyświetlenie historii operacji na koncie**
 
+![HistoriaOperacji](screens/SCREEN13.png)
+
 **10. Dodanie możliwości  sprzedaży walut co zasila saldo na koncie**
+
+![SprzedajWalute](screens/SCREEN14.png)
 
 **11. Wyświetlenie widżetów ze zmianami z zakupionych walut oraz możliwością wyświetlania danych w formie tabeli**
 
+![WidźetyWalut](screens/SCREEN15.png)
+
 **12. Możliwość wygenerowania pdf'ów zarówno z pełnej historii konta jak i pełnej historii konkretnej waluty wybranej przez użytkownika**
 
+![HistoriaWaluty](screens/SCREEN16.png)
+
+![WygenerowanyPdf](screens/SCREEN17.png)
 
 ## Wersja mobilna:
 
 ![Wersja mobilna](screens/SCREEN6.png)
+
+![WersjaMobilnaTabele](screens/SCREEN18.png)
 
 ### [Link do aplikacji](http://bai.v50.pl/)
 ### [Link do projektu github](https://github.com/szymonzalega/currency-app)
