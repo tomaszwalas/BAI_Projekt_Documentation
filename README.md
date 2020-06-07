@@ -44,6 +44,21 @@ Waluty zapisywane są do bazy firebase przez co użytkownik nie musi za każdym 
 
 ![Wykres](screens/SCREEN5.png)
 
+**6. Możliwość zasilenia wirtualnego portfela**
+
+**7. Możliwość wykonania przelewu gotówki do innego użytkownika**
+
+**8. Możliwość zakupu dowolnej waluty z dostępnego salda**
+
+**9. Wyświetlenie historii operacji na koncie**
+
+**10. Dodanie możliwości  sprzedaży walut co zasila saldo na koncie**
+
+**11. Wyświetlenie widżetów ze zmianami z zakupionych walut oraz możliwością wyświetlania danych w formie tabeli**
+
+**12. Możliwość wygenerowania pdf'ów zarówno z pełnej historii konta jak i pełnej historii konkretnej waluty wybranej przez użytkownika**
+
+
 ## Wersja mobilna:
 
 ![Wersja mobilna](screens/SCREEN6.png)
