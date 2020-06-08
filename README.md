@@ -44,9 +44,9 @@ Waluty zapisywane są do bazy firebase przez co użytkownik nie musi za każdym 
 
 ![Wykres](screens/SCREEN5.png)
 
-**Dodanie widoku menadżera portfelem **
+**Możliwość tworzenia oraz edycji list ulubionych walut**
 
-![FunkcjeWPortfelu](screens/SCREEN11.png)
+![FunkcjeWPortfelu](screens/SCREEN21.png)
 
 **6. Możliwość zasilenia wirtualnego portfela**
 
@@ -70,7 +70,7 @@ Waluty zapisywane są do bazy firebase przez co użytkownik nie musi za każdym 
 
 **11. Wyświetlenie widżetów ze zmianami z zakupionych walut oraz możliwością wyświetlania danych w formie tabeli**
 
-![WidźetyWalut](screens/SCREEN15.png)
+![WidźetyWalut](screens/SCREEN19.png)
 
 **12. Możliwość wygenerowania pdf'ów zarówno z pełnej historii konta jak i pełnej historii konkretnej waluty wybranej przez użytkownika**
 
@@ -80,7 +80,7 @@ Waluty zapisywane są do bazy firebase przez co użytkownik nie musi za każdym 
 
 ## Wersja mobilna:
 
-![Wersja mobilna](screens/SCREEN6.png)
+![Wersja mobilna](screens/SCREEN22.png)
 
 ![WersjaMobilnaTabele](screens/SCREEN18.png)
 
